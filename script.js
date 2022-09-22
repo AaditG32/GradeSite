@@ -1,3 +1,5 @@
+console.log("hello world");
+
 username = user-name;
 password = pass-word;
 
