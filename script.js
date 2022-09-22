@@ -1,9 +1,15 @@
 username = user-name;
 password = pass-word;
 
+var btn = document.getElementById('sub-mit');
+btn.addEventListener('click', func);
+
+
 
 const StudentVue = require('studentvue.js');
-StudentVue.login('https://sisstudent.fcps.edu', username, password)
-    .then(client => client.getMessages())
-    .then(console.log);
 
+function func() {
+    StudentVue.login('https://sisstudent.fcps.edu', username, password)
+        .then(client => client.getMessages())
+        .then(console.log);
+}
