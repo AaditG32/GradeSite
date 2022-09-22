@@ -20,7 +20,7 @@ body {
     margin: 1em;
 }
 
-.us-name {
+.usern {
     border: none;
     outline: none;
     padding: 0.4em 1em;
@@ -34,7 +34,7 @@ body {
     align-item: center;
 }
 
-.pass-word {
+.passw {
     border: none;
     outline: none;
     padding: 0.4em 1em;
