@@ -1,7 +1,7 @@
 console.log("hello world");
 
-username = us-name;
-password = pass-word;
+username = usern;
+password = passw;
 
 var btn = document.getElementById('sub-mit');
 btn.addEventListener('click', func);
