@@ -1,6 +1,6 @@
 console.log("hello world");
 
-username = user-name;
+username = us-name;
 password = pass-word;
 
 var btn = document.getElementById('sub-mit');
