@@ -11,5 +11,7 @@ const StudentVue = require('studentvue.js');
 function func() {
     StudentVue.login('https://sisstudent.fcps.edu', username, password)
         .then(client => client.getMessages())
+        .then(studentVueClient.getGradebook())
         .then(console.log);
+        
 }
